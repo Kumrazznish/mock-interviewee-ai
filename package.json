@@ -4,10 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "dev": "vite --host --port $PORT",
     "build": "vite build",
-  "start": "vite preview --port $PORT",
-  "dev": "vite --host --port $PORT"
-    "lint": "eslint .",
+    "start": "vite preview --port $PORT",
+    "lint": "eslint ."
     "preview": "vite preview"
   },
   "dependencies": {
